@@ -85,6 +85,9 @@ function EtherMiningCtrl($scope, $http, $log) {
             <input type="text" ng-model="userHash" placeholder="your hashrate MH/s" ng-change="computeProfits()"/> MH/s
             <select ng-model="userChoice" ng-change="updateUserHash()">
                 <option value="">Choose Your GPU</option>
+		<option value="24.7">Reference AMD RX 480 8GB @ 2000MHZ(Stock) - Windows X64</option>
+		<option value="26.4">Reference AMD RX 480 8GB @ 2100MHZ - Windows X64</option>
+		<option value="27.4">Reference AMD RX 480 8GB @ 2200MHZ - Windows X64</option>
                 <option value="76.5">5 x AMD HD 7950 - Windows x64</option>
 		<option value="100.5">5 x AMD HD 7970 - Windows x64</option>
 		<option value="101.5">5 x AMD R9 380x - Windows x64</option>
